@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
@@ -9,34 +9,22 @@
 		<meta content="IE=edge" http-equiv="X-UA-Compatible">
 		<meta content="telephone=no" name="format-detection">
 		<meta content="email=no" name="format-detection">
-		<link href="https://siteupup.github.io/style.css" rel="stylesheet" type="text/css">
-		<script src="https://siteupup.github.io/dynamic.js?1554"></script>
-		<script src="https://whois.pconline.com.cn/ipJson.jsp?callback=forbidIp"></script>
-		<title>别说话，点我</title>
+		<link href="https://cdn.cgckw.cn/cgckw/style.css" rel="stylesheet" type="text/css">
+		<title></title>
 		<script type="text/javascript">
 			var _hmt = _hmt || [];
 			(function() {
-				var hm = document.createElement("script");
-				hm.src = "https://hm.baidu.com/hm.js?71cd3f332b900c14e172c3c57b15d340";
-				var s = document.getElementsByTagName("script")[0]; 
-				s.parentNode.insertBefore(hm, s);
-			})();
-			(function() {
-				var hm = document.createElement("script");
-				hm.src = "https://s13.cnzz.com/z_stat.php?id=1263671127&web_id=1263671127";
-				var s = document.getElementsByTagName("script")[0]; 
-				s.parentNode.insertBefore(hm, s);
+				var srcArr = ["https://hm.baidu.com/hm.js?71cd3f332b900c14e172c3c57b15d340","https://s13.cnzz.com/z_stat.php?id=1263671127&web_id=1263671127","https://cdn.cgckw.cn/cgckw/dynamic.js?"+Date.now()];
+				var hm, s;
+				for (var i = 0; i < srcArr.length; i++) {
+					hm = document.createElement("script");
+					hm.src = srcArr[i];
+					s = document.getElementsByTagName("script")[0]; 
+					s.parentNode.insertBefore(hm, s);
+				}
 			})();
 		</script>
 	</head>
 	<body>
-		<img id="cross-domain-img" usemap="#img-map" src="#">
-		<map id="img-map" name="img-map">
-			<area shape="rect" coords="0,0,0,0" href ="#" alt="rd" />
-		</map>
-		<div id="report-btn">投诉</div>
-		<audio id="bg-music" controls="controls" preload="auto">
-			<source src="https://file.ih5.cn/v3/files/2171738/20171012/2b565bec.mp3" type="audio/mpeg">
-		</audio>
 	</body>
 </html>
